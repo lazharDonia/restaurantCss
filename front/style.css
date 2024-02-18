@@ -1,0 +1,267 @@
+@media screen and (max-width: 300px){
+    
+    
+}
+nav{
+    background-image: url(https://websitedemos.net/deli-restaurant-02/wp-content/uploads/sites/637/2020/08/homepage-hero-bg-img.jpg ) ;
+    background-size: cover;
+    background-position-y: -150px;
+    padding-top:20px;
+    height:800px;
+    width:cover;
+   
+}
+.nav{
+    display:flex;
+    align-items: start;
+    justify-content:space-around;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+  
+    
+    
+}
+
+.list1 a{
+    margin-top: 10px;
+    padding-right: 20px;
+    color:rgb(214, 211, 211);
+    font-variant:small-caps;
+    
+}
+#menu{
+   background-color:transparent;
+   color:rgb(255, 253, 253);
+    font-variant:small-caps;
+    border: 0px transparent;
+}
+option{
+    border:0px transparent;
+    color: black;
+}
+
+a:hover{
+    color:white;
+    
+    
+}
+a:visited{
+    transition: all  0.3s linear;
+}
+
+#btn {
+    background-color: transparent;
+     border-color: white;
+     color: white;
+     font-weight: bold;
+     font-size:small;
+     font-family:Arial, Helvetica, sans-serif;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 20px;
+     padding-left: 20px;
+}
+#btn:hover {
+    background-color: white;
+     color: black;
+     font-weight: bold;
+     font-size:small;
+     font-family:Arial, Helvetica, sans-serif;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 20px;
+     padding-left: 20px;
+}
+.secondPart{
+    margin-top: 100px;
+    color: white; 
+    
+}
+ h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:bold;
+    word-spacing: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white; 
+    
+
+    
+}
+h3{
+    padding-top: 10px;
+    color: grey;
+}
+p{
+  
+  color: darkgray;
+  
+}
+#img{
+    padding-top :80px;
+  padding-bottom: 10px;
+}
+
+
+.mainPart1{
+ 
+    margin-top: 80px;
+    padding-left:150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    
+
+}
+/****Main Part2 *****/
+
+.mainPart2{
+    margin-top: -100px;
+    padding-top:50px;
+    background-color: black;
+    color:white;
+    background-size: 100%;
+    padding-bottom:50px;
+}
+.menu{
+    padding-top:50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center flex-start;
+   
+
+}
+ h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkgray;
+    font-size: small;
+}
+h5{
+    font-size: small;
+}
+.element{
+  
+    border-style: hidden hidden dashed hidden;
+    margin-bottom: 10px;
+    padding:5px;
+    line-height: 5px;
+    
+   
+}
+/********mainPart3*****/
+.mainPart3{
+    background-image: url(https://websitedemos.net/deli-restaurant-02/wp-content/uploads/sites/637/2020/07/fine-dining-food.jpg) ;
+
+    background-repeat:round;
+    backface-visibility: hidden;
+    width:100%;
+    padding:50px;
+    display: block;
+    color:rgb(5, 5, 5);
+    
+}
+.part3{
+    padding:100px 100px 30px 100px;
+    background-color:lightgray;
+   
+}
+/***********part4**************/
+.mainPart4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top:50px;
+    padding:50px;
+  padding-right: 50px;
+}
+/************part5**************/
+.mainPart5{
+ 
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center flex-start;
+    padding:50px;
+}
+/************part6*******/
+.mainPart6{
+    background-image: url(https://websitedemos.net/deli-restaurant-02/wp-content/uploads/sites/637/2020/08/homepage-hero-bg-img.jpg );
+    padding-top: 100px;
+    color:white;
+    position: relative;
+}
+.part6{
+    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.description{
+    border-radius: 5%;
+    margin-right:50px;
+    margin-left:50px;
+    padding-top:50px;
+    padding-bottom: 20px;
+    margin-top: -70px;
+    background-color: black;
+    
+}
+.part6 img{
+    border: 5px solid;
+    border-color: gold;
+   border-radius: 50%;
+   position: sticky;
+}
+/**********Reservation************/
+#btn1{
+    background-color: transparent;
+    border-color: black;
+    color: BLACK;
+    font-weight: bold;
+    font-size:small;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#btn1:hover{
+    background-color:black;
+     color: black; 
+}
+.reservation{
+    justify-content: center;
+    align-items: center;
+    margin-top:-250px;
+    padding-top:250px;
+}
+.reserv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.part7{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    margin-top:50px;
+    width:100%;
+    
+}
+.ResSoc{
+    background-color:rgb(5, 5, 5);
+    
+
+}
